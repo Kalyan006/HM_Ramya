@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.reports.AllTest.ITS_Summary_Page_Year_End_CloseOut_Link">
+        <methods>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.reports.AllTest.ITS_Summary_Page_Year_End_CloseOut_Link -->
+      <class name="com.reports.AllTest.SelectedIssuesTabExportFunctionality">
+        <methods>
+          <include name="configureBeforeMethod"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.reports.AllTest.SelectedIssuesTabExportFunctionality -->
+      <class name="com.reports.AllTest.ITS_Summary_Page_Closed_Link">
+        <methods>
+          <include name="configureBeforeMethod"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.reports.AllTest.ITS_Summary_Page_Closed_Link -->
+      <class name="com.reports.AllTest.Selected_Issues_tab_click_on_Issue_header">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="configureBeforeMethod"/>
+        </methods>
+      </class> <!-- com.reports.AllTest.Selected_Issues_tab_click_on_Issue_header -->
+      <class name="com.reports.AllTest.ITS_Summary_Page_Void_Link">
+        <methods>
+          <include name="configureBeforeMethod"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.reports.AllTest.ITS_Summary_Page_Void_Link -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

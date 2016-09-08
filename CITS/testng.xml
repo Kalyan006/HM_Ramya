@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.reports.AllTest.ITS_Summary_Page_Year_End_CloseOut_Link"/>
+      <class name="com.reports.AllTest.SelectedIssuesTabExportFunctionality"/>
+      <class name="com.reports.AllTest.ITS_Summary_Page_Closed_Link"/>
+      <class name="com.reports.AllTest.Selected_Issues_tab_click_on_Issue_header"/>
+      <class name="com.reports.AllTest.ITS_Summary_Page_Void_Link"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
